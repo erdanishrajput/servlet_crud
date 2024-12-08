@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.data {
+  background-color: red;
+  width: 80%;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  /* font-size: 18px; */
+  text-align: left;
+}
+
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #8f8f8f;
+}
+
+th {
+  background-color: #434343;
+  color: white;
+  font-weight: bold;
+}
+tr {
+  background-color: #949393;
+}
+tr:nth-child(even) {
+  background-color: #bdbdbd;
+}
